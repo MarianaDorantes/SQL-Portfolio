@@ -27,10 +27,7 @@ cursor_obj = conn.cursor()
 
 ## Tarea 2. Crear una base de datos en SQL Lite
 
-
-```python
 Antes de crear la tabla, revisaremos si existe. Usaremos **DROP**.
-```
 
 
 ```python
@@ -45,10 +42,7 @@ cursor_obj.execute("DROP TABLE IF EXISTS INSTRUCTOR")
 
 
 
-
-```python
 Ahora creamos la tabla:
-```
 
 
 ```python
@@ -65,10 +59,7 @@ print("Table is Ready")
 
 ## Tarea 3. Llenar la tabla
 
-
-```python
 Insertamos primero datos en la primera fila:
-```
 
 
 ```python
@@ -96,10 +87,7 @@ cursor_obj.execute('''insert into INSTRUCTOR values (2, 'Raul', 'Chong', 'Markha
 
 ## Tarea 4. Consultar los datos
 
-
-```python
 Veamos cómo se ve la tabla recién creada:
-```
 
 
 ```python
@@ -195,9 +183,4 @@ df
 ```python
 # Close the connection
 conn.close()
-```
-
-
-```python
-
 ```

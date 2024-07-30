@@ -1,9 +1,6 @@
 # Creación de Tablas en SQL Lite usando Python
 
-
-```python
 Contenido basado en Coursera IBM por: Rav Ahuja
-```
 
 ## Tarea 1. Crear una base de datos en SQL Lite
 
